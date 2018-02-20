@@ -1,0 +1,14 @@
+Style Guide:
+
+Text Color:
+
+Teal 600 - #00897b
+Dark Blue - #2d5f73
+Dark Grey - #4d4d4d
+White - #FFFFFF
+
+Fonts Used:
+
+Cabin Regular, Medium, Bold
+Loguetown Regular
+Good vibes Regular
