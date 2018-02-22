@@ -1,37 +1,216 @@
 <!doctype html>
 <html class="no-js" lang="">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="manifest" href="site.webmanifest">
-        <link rel="apple-touch-icon" href="icon.png">
-        <!-- Place favicon.ico in the root directory -->
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="apple-touch-icon" href="icon.png">
+    <!-- Place favicon.ico in the root directory -->
 
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
-    </head>
-    <body>
-        <!--[if lte IE 9]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-        <![endif]-->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="./res/tesla2-prefixed.css"/>
+    <link rel="stylesheet" href="./res/style.css"/>
+    <script src="./res/rellax.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
 
-        <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
-        <script src="js/vendor/modernizr-3.5.0.min.js"></script>
-        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/galleria/1.5.7/galleria.min.js"></script>-->
 
-        <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-        <script>
-            window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
-            ga('create','UA-XXXXX-Y','auto');ga('send','pageview')
-        </script>
-        <script src="https://www.google-analytics.com/analytics.js" async defer></script>
-    </body>
+</head>
+<body style="height:400vh" class="">
+<div style="display:flex;z-index:999;" class="nav">
+    <div>
+        <a href="#">
+            <div>
+                <img style="width:25px;" src="assets/svgs/Instincts-logo.svg"/>
+                <span>About<br/> Instincts</span>
+            </div>
+        </a>
+        <a href="#">
+            <div>
+                <img  src="assets/svgs/ssn.png"/>
+                <span>About <br/> SSN</span>
+            </div>
+        </a>
+        <a href="#">
+            <div>
+                <img src="assets/svgs/icon_home.svg"/>
+                <span>Home</span>
+            </div>
+        </a>
+        <a href="#">
+            <div>
+                <img src="assets/svgs/icon_events.svg"/>
+                <span>Events</span>
+            </div>
+        </a>
+        <a href="#">
+            <div>
+                <img src="assets/svgs/icon_gallery.svg"/>
+                <span>Gallery</span>
+            </div>
+        </a>
+        <a href="#">
+            <div>
+                <img src="assets/svgs/icon_sponsors.svg"/>
+                <span>Sponsors</span>
+            </div>
+        </a>
+        <a href="#">
+            <div>
+                <img src="assets/svgs/icon_contact.svg"/>
+                <span>Contact</span>
+            </div>
+        </a>
+    </div>
+    <div>
+        <a href="#">
+            <div>
+                <img src="assets/svgs/icon_schedule.svg"/>
+                <span>Schedule</span>
+            </div>
+        </a>
+        <a href="#">
+            <div>
+                <img src="assets/svgs/icon_register.svg"/>
+                <span>Register</span>
+            </div>
+        </a>
+
+    </div>
+</div>
+<div>
+    <div class="full-height-container relative sky-grad parallax">
+        <img class="rellax" data-rellax-speed="-5" src="./assets/svgs/entrance-pos-fixed-01.svg"/>
+        <img class="rellax" data-rellax-speed="-3" src="./assets/svgs/ground+road-01.svg"/>
+        <img class="rellax" data-rellax-speed="-3" src="./assets/svgs/clock-tower-01.svg"/>
+        <img class="logo" src="./assets/svgs/Instincts-typography-01.svg"/>
+        <img class="logo rellax" data-rellax-speed="1" src="./assets/svgs/man-plane-01.svg"/>
+        <img class="logo" src="./assets/svgs/date-and-instincts-logo-01.svg"/>
+        <!--<div id="entrance" class="rellax" data-rellax-speed="-"/>-->
+        <!--<div id="grass" class="rellax" data-rellax-speed="3"/>-->
+        <!--<div id="clock-tower" class="rellax " data-rellax-speed="3"/>-->
+    </div>
+
+    <div id="gallery">
+        <!--Gallery-->
+        <div class="col centerify">
+            <img id="showcase" src="img/webp/IMG_4830.jpg"/>
+            <div id="thumbnails">
+                <img src="img/thumb/IMG_4830.jpg"/>
+                <img src="img/thumb/IMG_4884.jpg"/>
+                <!--<img src="img/thumb/IMG_4893.jpg"/>-->
+                <img src="img/thumb/IMG_5055.jpg"/>
+                <img src="img/thumb/IMG_5492.jpg"/>
+                <img src="img/thumb/IMG_5495.jpg"/>
+                <img src="img/thumb/IMG_5504.jpg"/>
+                <img src="img/thumb/IMG_5505.jpg"/>
+                <img src="img/thumb/IMG_5531.jpg"/>
+                <img src="img/thumb/IMG_5563.jpg"/>
+                <img src="img/thumb/IMG_5584.jpg"/>
+                <!--<img src="img/thumb/IMG_5756.jpg"/>-->
+                <!--<img src="img/thumb/IMG_5777.jpg"/>-->
+                <img src="img/thumb/IMG_6739.jpg"/>
+                <img src="img/thumb/IMG_6769.jpg"/>
+                <img src="img/thumb/IMG_6803.jpg"/>
+                <img src="img/thumb/IMG_6895.jpg"/>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--[if lte IE 9]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade
+    your browser</a> to improve your experience and security.</p>
+<![endif]-->
+
+<!-- Add your site or application content here -->
+
+<script src="js/vendor/modernizr-3.5.0.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
+
+<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+<script>
+    window.ga = function () {
+        ga.q.push(arguments)
+    };
+    ga.q = [];
+    ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto');
+    ga('send', 'pageview')
+</script>
+<script src="https://www.google-analytics.com/analytics.js" async defer></script>
+<script>
+    // Accepts any class name
+    var rellax = new Rellax('.rellax');
+    // (function() {
+    //     Galleria.loadTheme('https://cdnjs.cloudflare.com/ajax/libs/galleria/1.5.7/themes/classic/galleria.classic.min.js');
+    //     Galleria.run('.galleria');
+    // }());
+    // var galleryCount = 0;
+    // function gallery(){
+    //     var imageNodeList = //document.querySelectorAll("#thumbnails img");
+    //     setInterval(function(){
+    //         galleryCount = ++galleryCount>=imageNodeList.length?galleryCount%imageNodeList.length:galleryCount;
+    //
+    //         $("#showcase").attr("src", "img/webp/"+imageNodeList[galleryCount]);
+    //
+    //     },2000);
+    //     // var imgList = [];
+    //     // for(i in imageNodeList){
+    //     //     imgList.push(imageNodeList[i].src);
+    //     // }
+    //     console.log(imageNodeList);
+    // };
+
+    function Gallery() {
+        this.galleryCount = 0;
+        this.imageList = $("#thumbnails img").map(function (i, x) {
+            return $(x).attr('src');
+        }).get();
+        this.thumbToShowcase = function (url) {
+            var thumbIndex = this.imageList.indexOf(url);
+            this.galleryCount = thumbIndex;
+            $("#thumbnails img").css("border", 'none');
+            $("#thumbnails img").eq(thumbIndex).css("border", '2px solid orange');
+            var newUrl = url.replace('/thumb', '/jpg');
+            $("#showcase").attr("src", newUrl);
+
+        }
+
+        this.loop = function () {
+            var self = this;
+            setInterval(function () {
+                console.log(self.galleryCount);
+                self.galleryCount++;
+                if (self.galleryCount > self.imageList.length) {
+                    self.galleryCount %= self.imageList.length;
+                }
+                self.thumbToShowcase(self.imageList[self.galleryCount]);
+            }, 3000);
+
+        }
+        this.loop();
+
+        $("#thumbnails img[src]").click(function () {
+            var url = $(this).attr('src');
+            gallery.thumbToShowcase(url);
+        });
+    }
+
+    var gallery = new Gallery();
+
+
+</script>
+</body>
 </html>
+
