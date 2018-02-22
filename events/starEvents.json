@@ -1,0 +1,20 @@
+{
+  "proshow": {
+    "name": "Pro Show"
+  },
+  "varietyShow": {
+    "name": "Variety Show"
+  },
+  "djNight": {
+    "name": "DJ Night"
+  },
+  "bikeStunt": {
+    "name": "Bike Stunt"
+  },
+  "choreoNight": {
+    "name": "Choreo Night"
+  },
+  "workshops": {
+    "name": "Workshops"
+  }
+}

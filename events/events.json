@@ -1,0 +1,103 @@
+{
+    "ELC": {
+      "name": "ELC",
+      "friendlyName": "English Club",
+      "events": [
+        "Jam",
+        "Potpourri",
+        "Character Showdown",
+        "Debate",
+        "Lawyer Up",
+        "Creative Writing"
+      ]
+    },
+    "Saaral": {
+      "name": "Saaral",
+      "friendlyName": "Tamil Club",
+      "events": [
+        "சகலகலா வல்லவன்",
+        "கலக்கல் கவிதை",
+        "கிறுக்கெழுத்துபடைப்பக்கப்போட்டி (creative writting)",
+        "சிறுகதைப் போட்டி",
+        "குறுக்கெழுத்து போட்டி",
+        "வாயை மூடி பேசவும்",
+        "கோலப்போட்டி",
+        "பேச்சு போட்டி",
+        "பட்டிமன்றம்"
+      ]
+    },
+    "lop": {
+      "name": "Lights Out Please!",
+      "friendlyName": "Drama Club",
+      "events": [
+        "24 Hour Theatre",
+        "Monoacting"
+      ]
+    },
+    "rof": {
+      "name": "Film Club",
+      "friendlyName": "Film Club",
+      "events": [
+        "Reels of Fire"
+      ]
+    },
+    "fineArts": {
+      "name": "Fine Arts",
+      "friendlyName": "Fine Arts",
+      "events": [
+        "B/W SKETCHING",
+        "ADULT COLORING CONTEST",
+        "INK IT! - MEHENDI AND TATTOO COMPETITION",
+        "MURAL PAINTING",
+        "DOODLE WAR"
+      ]
+    },
+    "classicalDance": {
+      "name": "Classical Dance Club",
+      "friendlyName": "Classical Dance Club",
+      "events": [
+        "Classical Solo Dance"
+      ]
+    },
+    "musicClub": {
+      "name": "Music Club",
+      "friendlyName": "Music Club",
+      "events": [
+        "Dhwani - Light Music Band event",
+        "SSN Idol - Light music vocal solo event",
+        "Electrix - Western Band Event",
+        "Swaralaya - Carnatic Music Event",
+        "Acoustics And A Capella"
+      ]
+    },
+    "photography": {
+      "name": "Photography",
+      "friendlyName": "Photography",
+      "events": [
+        "Online photography contest",
+        "Let the Experts Talk (LET)"
+      ]
+    },
+    "varietyEvents": {
+      "name": "Variety Events",
+      "friendlyName": "Variety Events",
+      "events": [
+        "Adzap",
+        "Mix and Match",
+        "IPL Bidding",
+        "60s - Channel Surfing",
+        "Treasure Hunt",
+        "Variety Show"
+      ]
+    },
+    "qFactorial": {
+      "name": "Q Factorial!",
+      "friendlyName": "Quiz Club",
+      "events": [
+        "General Quiz",
+        "SpEnt Quiz",
+        "Fandom Quiz",
+        "Online Quiz"
+      ]
+    }
+  }

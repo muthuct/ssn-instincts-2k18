@@ -1,0 +1,170 @@
+#tempBackImg {
+    opacity: 0.2;
+}
+
+.layer {
+    position: absolute;
+    width: 100%;
+}
+
+.fw-img {
+    width: 100%;
+}
+
+#site-content-div {
+    position: relative;
+}
+
+#layer-bg-devel,
+#layer-bg-1 {
+    position: absolute;
+}
+
+#homepage-bg {
+    position: absolute;
+    top: 180px;
+}
+
+#gate-bg {
+    position: absolute;
+    left: 775px;
+    width: 275px;
+    top: 90px;
+}
+
+#clocktower-bg {
+    position: absolute;
+    left: 110px;
+    width: 400px;
+    top: 320px;
+}
+
+#planeman-bg {
+    position: absolute;
+    width: 280px;
+    left: 175px;
+    top: 160px;
+}
+
+#hero-container {
+    position: relative;
+    min-height: 56.25vw;
+}
+
+#star-events-container {
+    position: relative;
+    min-height: 56.25vw;
+
+
+    display: flex;
+    margin: 0 15vw;
+}
+
+#star-events-container * {
+    /* display: inherit; */
+    text-align: center;
+}
+
+#star-events-title {
+    position: relative;
+
+    font-family: Good-Vibes;
+    font-size: 7rem;
+
+    line-height: 7rem;
+
+    color: #2d5f73;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#star-events-content-left,
+#star-events-content-right
+{
+    font-family: Loguetown;
+    font-size: 3rem;
+    line-height: 7rem;
+    color: red;
+    flex: 1 1 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 900px) {
+    #star-events-container {
+        flex-direction: column;
+        /* height: auto; */
+    }
+
+    #star-events-title {
+        order: 1;
+    }
+
+    #star-events-content-left {
+        order: 2;
+    }
+
+    #star-events-content-right {
+        order: 3;
+    }
+
+    #star-events-content-left,
+    #star-events-content-right
+    {
+        flex: 1 1 auto;
+    }
+}
+
+#events-container {
+    position: relative;
+    min-height: 56.25vw;
+
+
+    display: flex;
+    flex-direction: column;
+    margin: 0 15vw;
+}
+
+#events-container * {
+    /* display: inherit; */
+    text-align: center;
+}
+
+#events-title {
+    position: relative;
+
+    font-family: Good-Vibes;
+    font-size: 7rem;
+
+    line-height: 7rem;
+
+    color: #2d5f73;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#events-content
+{
+    font-family: Loguetown;
+    font-size: 2.5rem;
+    line-height: 7rem;
+    color: red;
+    flex: 1 1 0;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    column-count: 3;
+}
+
+@media only screen and (max-width: 900px) {
+    #events-container {
+
+    }
+}
