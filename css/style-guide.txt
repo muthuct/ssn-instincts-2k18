@@ -6,7 +6,7 @@ Teal 600 - #00897b
 Dark Blue - #2d5f73
 Dark Grey - #4d4d4d
 White - #FFFFFF
-
+SkyBlueGradient: #BBDEFB - #FFFFFF
 Fonts Used:
 
 Cabin Regular, Medium, Bold

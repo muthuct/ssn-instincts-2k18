@@ -1,0 +1,122 @@
+*{
+  //border:1px dashed red;
+}
+
+.sky-grad{
+    background:linear-gradient(180deg,#BBDEFB,#FFFFFF);
+}
+
+.full-height-container{
+    height:125vh;
+    width:100vw;
+
+}
+
+
+.parallax{
+    img.rellax {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    img.logo{
+       position:absolute;
+        top:0;
+        left:0;
+       //max-width:400px;
+       //top: 33%;
+       //left: 33%;
+    }
+    //#grass{
+    //    @extend .full-height-container;
+    //    background: url(../assets/svgs/ground+road-01.svg);
+    //    background-repeat: no-repeat;
+    //    //background-position: bottom;
+    //}
+    //
+    //#clock-tower{
+    //    @extend .full-height-container;
+    //
+    //    background: url(../assets/svgs/man-plane-clocktower-01.svg);
+    //    background-repeat: no-repeat;
+    //
+    //}
+    //
+    //#entrance{
+    //    @extend .full-height-container;
+    //
+    //    background: url(../assets/svgs/entrance-pos-fixed-01.svg);
+    //    background-repeat: no-repeat;
+    //}
+
+
+}
+
+body{
+  //background: cyan;
+}
+
+.nav{
+    transition:0.4s;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+
+  position: fixed;
+  background: rgba(255,255,255,0.7);
+  left:0;
+  top:0;
+  height:100%;
+  bottom:0;
+
+  a div{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+      justify-content: center;
+      align-items: center;
+      transition: 0.2s;
+    //width:48px;
+      span{
+          display:none;
+          font-family:"Cabin","sans-serif";
+          padding:8px;
+          color:#4d4d4d;
+      }
+      &:hover span{
+
+            color:#26a69a;
+      }
+
+  }
+    &:hover a div span{
+        display:inline;
+    }
+
+  a img{
+    width:36px;
+    margin:8px;
+    opacity: 0.7;
+    transition:0.2s ease-out;
+    //height:36px;
+  }
+  a:hover img{
+    width: 48px;
+    opacity: 1;
+  }
+}
+
+
+#showcase{
+    max-width:600px;
+    height:auto;
+    margin:32px auto;
+}
+#thumbnails {
+    max-width: 600px;
+    img {
+        width: 60px;
+        height: auto;
+
+    }
+}

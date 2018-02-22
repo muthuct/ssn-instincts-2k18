@@ -1,0 +1,64 @@
+.sky-grad {
+  background: linear-gradient(180deg, #BBDEFB, #FFFFFF); }
+
+.full-height-container {
+  height: 125vh;
+  width: 100vw; }
+
+.parallax img.rellax {
+  position: absolute;
+  top: 0;
+  left: 0; }
+.parallax img.logo {
+  position: absolute;
+  top: 0;
+  left: 0; }
+
+.nav {
+  transition: 0.4s;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: fixed;
+  background: rgba(255, 255, 255, 0.7);
+  left: 0;
+  top: 0;
+  height: 100%;
+  bottom: 0; }
+  .nav a div {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    transition: 0.2s; }
+    .nav a div span {
+      display: none;
+      font-family: "Cabin","sans-serif";
+      padding: 8px;
+      color: #4d4d4d; }
+    .nav a div:hover span {
+      color: #26a69a; }
+  .nav:hover a div span {
+    display: inline; }
+  .nav a img {
+    width: 36px;
+    margin: 8px;
+    opacity: 0.7;
+    transition: 0.2s ease-out; }
+  .nav a:hover img {
+    width: 48px;
+    opacity: 1; }
+
+#showcase {
+  max-width: 600px;
+  height: auto;
+  margin: 32px auto; }
+
+#thumbnails {
+  max-width: 600px; }
+  #thumbnails img {
+    width: 60px;
+    height: auto; }
+
+/*# sourceMappingURL=style.css.map */
