@@ -7,10 +7,18 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
+        <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/markdown-it/8.4.1/markdown-it.js"></script>
+
         <link rel="manifest" href="site.webmanifest">
         <link rel="apple-touch-icon" href="icon.png">
         <!-- Place favicon.ico in the root directory -->
 
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="./res/tesla2-prefixed.css"/>
@@ -122,10 +130,36 @@
                 </div>
             </div>
         </div>
-        <script src="js/vendor/modernizr-3.5.0.min.js"></script>
-        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
-        <script src="js/plugins.js"></script>
+
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" role="dialog">
+            <div class="modal-dialog modal-lg">
+            <div class="modal-content" style="background-color:rgba(0,0,0,0.8);color:white;">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" style="color:white;">&times;</button>
+                    <h3 class="modal-title text-center">Events
+                        <span class="visible-xs">(Click and Scroll Down to View)</span>
+                    </h3>
+                </div>
+
+                <div class="modal-body row">
+
+                    <div class="col-sm-2 text-center" id="left-side-pane" style="border-right:2px solid #fefefe">
+                        <!-- Your first column here -->
+                    </div>
+                    <div class="col-sm-10" style="padding-left:20px;" id="right-side-pane">
+                        <!-- Your second column here -->
+                        <div id="right-side-pane-header"></div>
+                        <div id="right-side-pane-content">
+                            <h4 style="text-align: center">Click on the clubs to view their events!</h4>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            </div>
+        </div>
+
         <script src="js/main.js"></script>
         <script src="js/starEvents.js"></script>
         <script src="js/events.js"></script>
