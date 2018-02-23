@@ -1,7 +1,7 @@
 {
     "ELC": {
-      "name": "ELC",
-      "friendlyName": "English Club",
+      "name": "English Literary Club",
+      "friendlyName": "English Literature",
       "bgURL": "assets/events-bg/events-ELC-England-01.svg.png",
       "events": [
         "Jam",
@@ -13,13 +13,13 @@
       ]
     },
     "Saaral": {
-      "name": "Saaral",
-      "friendlyName": "Tamil Club",
+      "name": "சாரல்",
+      "friendlyName": "Tamil Literature",
       "bgURL": "assets/events-bg/events-Saaral-Tamilnadu.svg",
       "events": [
         "சகலகலா வல்லவன்",
         "கலக்கல் கவிதை",
-        "கிறுக்கெழுத்துபடைப்பக்கப்போட்டி (creative writting)",
+        "கிறுக்கெழுத்து படைப்பக்கப்போட்டி",
         "சிறுகதைப் போட்டி",
         "குறுக்கெழுத்து போட்டி",
         "வாயை மூடி பேசவும்",
@@ -30,7 +30,7 @@
     },
     "lop": {
       "name": "Lights Out Please!",
-      "friendlyName": "Drama Club",
+      "friendlyName": "Drama",
       "bgURL": "assets/events-bg/events-LOP-Paris.svg",
       "events": [
         "24 Hour Theatre",
@@ -39,7 +39,7 @@
     },
     "rof": {
       "name": "Film Club",
-      "friendlyName": "Film Club",
+      "friendlyName": "Short Films",
       "bgURL": "assets/events-bg/events-FilmClub-USA1.svg",
       "events": [
         "Reels of Fire"
@@ -58,16 +58,16 @@
       ]
     },
     "classicalDance": {
-      "name": "Dance Club",
-      "friendlyName": "Dance Club",
+      "name": "Dance",
+      "friendlyName": "Dance",
       "bgURL": "assets/events-bg/events-n2k-Brazil.svg",
       "events": [
         "Classical Solo Dance"
       ]
     },
     "musicClub": {
-      "name": "Music Club",
-      "friendlyName": "Music Club",
+      "name": "Music",
+      "friendlyName": "Music",
       "bgURL": "assets/events-bg/events-Music-Mexico.svg",
       "events": [
         "Dhwani - Light Music Band event",
@@ -101,7 +101,7 @@
     },
     "qFactorial": {
       "name": "Q Factorial!",
-      "friendlyName": "Quiz Club",
+      "friendlyName": "Quiz",
       "bgURL": "assets/events-bg/events-Quiz-China-01.svg",
       "events": [
         "General Quiz",
