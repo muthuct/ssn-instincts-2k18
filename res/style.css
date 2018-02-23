@@ -14,7 +14,12 @@
   top: 0;
   left: 0; }
 
-.nav {
+  .nav-child {
+      margin: 12px;
+  }
+
+.my-nav {
+    font-weight: 600;
   transition: 0.4s;
   display: flex;
   flex-direction: column;
@@ -26,36 +31,36 @@
   height: 100%;
   bottom: 0; }
   @media only screen and (max-width: 768px) {
-    .nav {
+    .my-nav {
       transform: translateX(-100%); } }
-  .nav a {
+  .my-nav a {
     text-decoration: none !important; }
-    .nav a > div {
+    .my-nav a > div {
       display: flex;
       flex-direction: row;
       position: relative;
       justify-content: center;
       align-items: center;
       transition: 0.2s; }
-      .nav a > div span {
+      .my-nav a > div span {
         display: none;
         font-family: "Cabin", "sans-serif";
         padding: 8px;
         color: #4d4d4d; }
         @media only screen and (max-width: 768px) {
-          .nav a > div span {
+          .my-nav a > div span {
             display: inline; } }
-      .nav a > div:hover span {
+      .my-nav a > div:hover span {
         color: #26a69a; }
-  .nav:hover a div span {
+  .my-nav:hover a div span {
     display: inline;
     text-decoration: none; }
-  .nav a img {
+  .my-nav a img {
     width: 36px;
     margin: 8px;
     opacity: 0.7;
     transition: 0.2s ease-out; }
-  .nav a:hover img {
+  .my-nav a:hover img {
     width: 48px;
     opacity: 1; }
 
