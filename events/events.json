@@ -31,7 +31,7 @@
     "lop": {
       "name": "Lights Out Please!",
       "friendlyName": "Drama Club",
-      "bgURL": "assets/events-bg/events-LOP-Paris.svg.png",
+      "bgURL": "assets/events-bg/events-LOP-Paris.svg",
       "events": [
         "24 Hour Theatre",
         "Monoacting"
@@ -40,7 +40,7 @@
     "rof": {
       "name": "Film Club",
       "friendlyName": "Film Club",
-      "bgURL": "assets/events-bg/events-ELC-England-01.svg.png",
+      "bgURL": "assets/events-bg/events-FilmClub-USA1.svg",
       "events": [
         "Reels of Fire"
       ]
@@ -58,9 +58,9 @@
       ]
     },
     "classicalDance": {
-      "name": "Classical Dance Club",
+      "name": "Dance Club",
       "friendlyName": "Dance Club",
-      "bgURL": "assets/events-bg/events-ELC-England-01.svg.png",
+      "bgURL": "assets/events-bg/events-n2k-Brazil.svg",
       "events": [
         "Classical Solo Dance"
       ]
@@ -89,7 +89,7 @@
     "varietyEvents": {
       "name": "Variety Events",
       "friendlyName": "Variety Events",
-      "bgURL": "assets/events-bg/events-ELC-England-01.svg.png",
+      "bgURL": "assets/events-bg/events-Variety-Japan-01.png",
       "events": [
         "Adzap",
         "Mix and Match",
