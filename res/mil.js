@@ -36,10 +36,12 @@
         }
 
         this.loop = function () {
+            $("#thumbnails").scrollLeft(30);
             var self = this;
             setInterval(function () {
-                console.log(self.galleryCount);
+                // console.log(self.galleryCount);
                 self.galleryCount++;
+
                 if (self.galleryCount > self.imageList.length) {
                     self.galleryCount %= self.imageList.length;
                 }
@@ -50,6 +52,7 @@
         var navState = 0;
         this.loop();
         $("#nav-opener").click(function(){
+            $("#nav-opener img").slideToggle();
             if(navState = !navState);
             if(navState){
                  $(".nav").css("transform","translateX(0px)");

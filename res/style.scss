@@ -2,6 +2,7 @@
     //border:1px dashed red;
 }
 
+$sea:#b2ebf2;
 .sky-grad {
     background: linear-gradient(180deg, #BBDEFB, #FFFFFF);
 }
@@ -67,34 +68,39 @@ body {
     top: 0;
     height: 100%;
     bottom: 0;
-    @media only screen and (max-width:768px){
-        transform:translateX(-100%);
+    @media only screen and (max-width: 768px) {
+        transform: translateX(-100%);
     }
-    a div {
-        display: flex;
-        flex-direction: row;
-        position: relative;
-        justify-content: center;
-        align-items: center;
-        transition: 0.2s;
-        //width:48px;
-        span {
-            display: none;
+    a {
+        & > div {
+            display: flex;
+            flex-direction: row;
+            position: relative;
+            justify-content: center;
+            align-items: center;
+            transition: 0.2s;
+            //width:48px;
+            span {
+                display: none;
 
-            font-family: "Cabin", "sans-serif";
-            padding: 8px;
-            color: #4d4d4d;
-            @media only screen and (max-width:768px){
-                display:inline;
+                font-family: "Cabin", "sans-serif";
+                padding: 8px;
+                color: #4d4d4d;
+                @media only screen and (max-width: 768px) {
+                    display: inline;
+                }
             }
-        }
-        &:hover span {
-            color: #26a69a;
-        }
+            &:hover span {
+                color: #26a69a;
 
+            }
+
+        }
+        text-decoration: none !important;
     }
     &:hover a div span {
         display: inline;
+        text-decoration: none;
     }
 
     a img {
@@ -110,18 +116,20 @@ body {
     }
 
 }
-#nav-opener{
+
+#nav-opener {
     background: rgba(255, 255, 255, 0.7);
-    position:fixed;
-    right:0px;
-    top:0px;
-    z-index:999;
-    @media only screen and (min-width:768px){
-        display:none;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    z-index: 999;
+    @media only screen and (min-width: 768px) {
+        display: none;
     }
 }
+
 #gallery {
-    background: cyan url(../assets/svgs/continents_america.svg);
+    background: $sea url(../assets/svgs/continents_america.svg);
     background-repeat: no-repeat;
     padding: 32px 8px;
 
@@ -130,20 +138,58 @@ body {
         width: 100%;
         height: auto;
         margin: 32px auto;
-        @media only scren and (max-width:768px){
+        @media only scren and (max-width: 768px) {
             max-width: 100%;
 
         }
     }
     #thumbnails {
 
-        max-width: 100%;
+        width: 100%;
+        max-width:800px;
         overflow-x: scroll;
+        &::-webkit-scrollbar{
+            display:none;
+        }
         display: flex;
         img {
             width: 60px;
             height: auto;
-            margin:auto 8px;
+            margin: auto 8px;
         }
+    }
+}
+
+#contact{
+
+    position:relative;
+    justify-content: center;
+    height:100vh;
+    background: $sea;
+    display: flex;
+    //flex-direction: column;
+    color:white;
+    h1{
+        font-family:'Good-Vibes',sans-serif;
+        font-size:4em;
+        color:#2d5f73
+    }
+    .bg{
+        position:absolute;
+        left:0;
+        right:0;
+        bottom:0;
+        //z-index:-799;
+    }
+    .copyright{
+        position: absolute;
+        bottom:0px;
+        color:black;
+        text-align: center;
+        left:50%;
+        transform:translateX(-50%);
+    }
+    p img{
+        margin:8px;
     }
 }

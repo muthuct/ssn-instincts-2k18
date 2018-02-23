@@ -28,25 +28,28 @@
   @media only screen and (max-width: 768px) {
     .nav {
       transform: translateX(-100%); } }
-  .nav a div {
-    display: flex;
-    flex-direction: row;
-    position: relative;
-    justify-content: center;
-    align-items: center;
-    transition: 0.2s; }
-    .nav a div span {
-      display: none;
-      font-family: "Cabin", "sans-serif";
-      padding: 8px;
-      color: #4d4d4d; }
-      @media only screen and (max-width: 768px) {
-        .nav a div span {
-          display: inline; } }
-    .nav a div:hover span {
-      color: #26a69a; }
+  .nav a {
+    text-decoration: none !important; }
+    .nav a > div {
+      display: flex;
+      flex-direction: row;
+      position: relative;
+      justify-content: center;
+      align-items: center;
+      transition: 0.2s; }
+      .nav a > div span {
+        display: none;
+        font-family: "Cabin", "sans-serif";
+        padding: 8px;
+        color: #4d4d4d; }
+        @media only screen and (max-width: 768px) {
+          .nav a > div span {
+            display: inline; } }
+      .nav a > div:hover span {
+        color: #26a69a; }
   .nav:hover a div span {
-    display: inline; }
+    display: inline;
+    text-decoration: none; }
   .nav a img {
     width: 36px;
     margin: 8px;
@@ -67,7 +70,7 @@
       display: none; } }
 
 #gallery {
-  background: cyan url(../assets/svgs/continents_america.svg);
+  background: #b2ebf2 url(../assets/svgs/continents_america.svg);
   background-repeat: no-repeat;
   padding: 32px 8px; }
   #gallery #showcase {
@@ -79,12 +82,41 @@
       #gallery #showcase {
         max-width: 100%; } }
   #gallery #thumbnails {
-    max-width: 100%;
+    width: 100%;
+    max-width: 800px;
     overflow-x: scroll;
     display: flex; }
+    #gallery #thumbnails::-webkit-scrollbar {
+      display: none; }
     #gallery #thumbnails img {
       width: 60px;
       height: auto;
       margin: auto 8px; }
+
+#contact {
+  position: relative;
+  justify-content: center;
+  height: 100vh;
+  background: #b2ebf2;
+  display: flex;
+  color: white; }
+  #contact h1 {
+    font-family: 'Good-Vibes',sans-serif;
+    font-size: 4em;
+    color: #2d5f73; }
+  #contact .bg {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0; }
+  #contact .copyright {
+    position: absolute;
+    bottom: 0px;
+    color: black;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%); }
+  #contact p img {
+    margin: 8px; }
 
 /*# sourceMappingURL=style.css.map */

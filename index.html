@@ -1,208 +1,242 @@
 <!doctype html>
 <html class="no-js" lang="">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <script src="js/vendor/modernizr-3.5.0.min.js"></script>
-        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
-        <script src="js/plugins.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/markdown-it/8.4.1/markdown-it.js"></script>
+    <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+            integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
+    <script src="js/plugins.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/markdown-it/8.4.1/markdown-it.js"></script>
 
-        <link rel="manifest" href="site.webmanifest">
-        <link rel="apple-touch-icon" href="icon.png">
-        <!-- Place favicon.ico in the root directory -->
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="apple-touch-icon" href="icon.png">
+    <!-- Place favicon.ico in the root directory -->
 
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="./res/tesla2-prefixed.css"/>
-        <link rel="stylesheet" href="./res/style.css"/>
-        <script src="./res/rellax.js"></script>
-        <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-        <link rel="stylesheet" href="css/fonts.css">
-        <link rel="stylesheet" href="css/devel-index.css">
-        <link rel="stylesheet" href="css/events.css">
-    </head>
-    <body>
-        <!--[if lte IE 9]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-        <![endif]-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="./res/tesla2-prefixed.css"/>
+    <link rel="stylesheet" href="./res/style.css"/>
+    <script src="./res/rellax.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/devel-index.css">
+    <link rel="stylesheet" href="css/events.css">
+</head>
+<body>
+<!--[if lte IE 9]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade
+    your browser</a> to improve your experience and security.</p>
+<![endif]-->
 
-        <div id="nav-opener">
-            <img src="assets/icons/ic_menu_black_36px.svg"/>
-         </div>
-     <div style="display:flex;z-index:999;" class="nav">
-         <div>
-             <a href="#">
-                 <div>
-                     <img style="width:25px;" src="assets/svgs/Instincts-logo.svg"/>
-                     <span>About<br/> Instincts</span>
-                 </div>
-             </a>
-             <a href="#">
-                 <div>
-                     <img  src="assets/svgs/ssn.png"/>
-                     <span>About <br/> SSN</span>
-                 </div>
-             </a>
-             <a href="#">
-                 <div>
-                     <img src="assets/svgs/icon_home.svg"/>
-                     <span>Home</span>
-                 </div>
-             </a>
-             <a href="#">
-                 <div>
-                     <img src="assets/svgs/icon_events.svg"/>
-                     <span>Events</span>
-                 </div>
-             </a>
-             <a href="#">
-                 <div>
-                     <img src="assets/svgs/icon_gallery.svg"/>
-                     <span>Gallery</span>
-                 </div>
-             </a>
-             <a href="#">
-                 <div>
-                     <img src="assets/svgs/icon_sponsors.svg"/>
-                     <span>Sponsors</span>
-                 </div>
-             </a>
-             <a href="#">
-                 <div>
-                     <img src="assets/svgs/icon_contact.svg"/>
-                     <span>Contact</span>
-                 </div>
-             </a>
-         </div>
-         <div>
-             <a href="#">
-                 <div>
-                     <img src="assets/svgs/icon_schedule.svg"/>
-                     <span>Schedule</span>
-                 </div>
-             </a>
-             <a href="#">
-                 <div>
-                     <img src="assets/svgs/icon_register.svg"/>
-                     <span>Register</span>
-                 </div>
-             </a>
-     
-         </div>
-     </div>
-
-        <!-- Add your site or application content here -->
-        <div id="site-content-div">
-            <div id="layer-bg-1" class="layer">
+<div id="nav-opener">
+    <img id="nav-opener-open" src="res/ic_menu_black_36px.svg"/>
+    <img id="nav-opener-close" style="display:none;" src="res/ic_close_white_36px.svg"/>
+</div>
+<div style="display:flex;z-index:999;" class="nav">
+    <div>
+        <a href="#">
+            <div>
+                <img style="width:25px;" src="assets/svgs/Instincts-logo.svg"/>
+                <span>About<br/> Instincts</span>
             </div>
-            <div id="layer-bg-2" class="layer sky-grad">
-                <img class="rellax" data-rellax-speed="-5" src="assets/svgs/entrance-pos-fixed-01.svg">
-                <img class="rellax" data-rellax-speed="-3" style="position: absolute; width:100%; left: 0; top: 0;" src="assets/svgs/ground-road-01.svg">
-                <img class="rellax" data-rellax-speed="-3" style="position: absolute; width:100%; left: 0; top: 0;" src="assets/svgs/clock-tower-01.svg">
-                <img class="rellax" data-rellax-speed="1" style="position: absolute; width:100%; left: 0; top: 0;" src="assets/svgs/man-plane-01.svg">
-                <img class="rellax" style="position: absolute; width:100%; left: 0; top: 0;" src="assets/svgs/Instincts-typography-01.svg">
-                <img class="rellax" style="position: absolute; width:100%; left: 0; top: 0;" src="assets/svgs/date-and-instincts-logo-01.svg">
+        </a>
+        <a href="#">
+            <div>
+                <img src="assets/svgs/ssn.png"/>
+                <span>About <br/> SSN</span>
             </div>
-            <div id="layer-bg-devel" class="layer">
-                <!-- <img id="tempBackImg" class="fw-img" src="assets/instincts-website-layout-complete.png"> -->
+        </a>
+        <a href="#">
+            <div>
+                <img src="assets/svgs/icon_home.svg"/>
+                <span>Home</span>
             </div>
-            <div id="layer-main" class="layer">
-                <div id="hero-container"></div>
-                <div id="star-events-container">
-                    <div id="star-events-content-left"></div>
-                    <div id="star-events-title"><div>Star</div><div>Events</div></div>
-                    <div id="star-events-content-right"></div>
-                </div>
-                <div id="events-container">
-                    <div id="events-title">Events</div>
-                    <div id="events-content"></div>
-                </div>
-                <div id="hospitality-container">
-                </div>
-
-
-                <div id="gallery">
-                    <!--Gallery-->
-                    <div class="col centerify">
-                        <img id="showcase" src="img/jpg/IMG_4830.jpg"/>
-                        <div id="thumbnails">
-                            <img src="img/thumb/IMG_4830.jpg"/>
-                            <img src="img/thumb/IMG_4884.jpg"/>
-                            <!--<img src="img/thumb/IMG_4893.jpg"/>-->
-                            <img src="img/thumb/IMG_5055.jpg"/>
-                            <img src="img/thumb/IMG_5492.jpg"/>
-                            <img src="img/thumb/IMG_5495.jpg"/>
-                            <img src="img/thumb/IMG_5504.jpg"/>
-                            <img src="img/thumb/IMG_5505.jpg"/>
-                            <img src="img/thumb/IMG_5531.jpg"/>
-                            <img src="img/thumb/IMG_5563.jpg"/>
-                            <img src="img/thumb/IMG_5584.jpg"/>
-                            <!--<img src="img/thumb/IMG_5756.jpg"/>-->
-                            <!--<img src="img/thumb/IMG_5777.jpg"/>-->
-                            <img src="img/thumb/IMG_6739.jpg"/>
-                            <img src="img/thumb/IMG_6769.jpg"/>
-                            <img src="img/thumb/IMG_6803.jpg"/>
-                            <img src="img/thumb/IMG_6895.jpg"/>
-                        </div>
-                    </div>
-                </div>
-
-
-
+        </a>
+        <a href="#">
+            <div>
+                <img src="assets/svgs/icon_events.svg"/>
+                <span>Events</span>
             </div>
+        </a>
+        <a href="#">
+            <div>
+                <img src="assets/svgs/icon_gallery.svg"/>
+                <span>Gallery</span>
+            </div>
+        </a>
+        <a href="#">
+            <div>
+                <img src="assets/svgs/icon_sponsors.svg"/>
+                <span>Sponsors</span>
+            </div>
+        </a>
+        <a href="#">
+            <div>
+                <img src="assets/svgs/icon_contact.svg"/>
+                <span>Contact</span>
+            </div>
+        </a>
+    </div>
+    <div>
+        <a href="#">
+            <div>
+                <img src="assets/svgs/icon_schedule.svg"/>
+                <span>Schedule</span>
+            </div>
+        </a>
+        <a href="#">
+            <div>
+                <img src="assets/svgs/icon_register.svg"/>
+                <span>Register</span>
+            </div>
+        </a>
+
+    </div>
+</div>
+
+<!-- Add your site or application content here -->
+<div id="site-content-div">
+    <div id="layer-bg-1" class="layer">
+    </div>
+    <div id="layer-bg-2" class="layer sky-grad">
+        <img class="rellax" data-rellax-speed="-5" src="assets/svgs/entrance-pos-fixed-01.svg">
+        <img class="rellax" data-rellax-speed="-3" style="position: absolute; width:100%; left: 0; top: 0;"
+             src="assets/svgs/ground-road-01.svg">
+        <img class="rellax" data-rellax-speed="-3" style="position: absolute; width:100%; left: 0; top: 0;"
+             src="assets/svgs/clock-tower-01.svg">
+        <img class="rellax" data-rellax-speed="1" style="position: absolute; width:100%; left: 0; top: 0;"
+             src="assets/svgs/man-plane-01.svg">
+        <img class="rellax" style="position: absolute; width:100%; left: 0; top: 0;"
+             src="assets/svgs/Instincts-typography-01.svg">
+        <img class="rellax" style="position: absolute; width:100%; left: 0; top: 0;"
+             src="assets/svgs/date-and-instincts-logo-01.svg">
+    </div>
+    <div id="layer-bg-devel" class="layer">
+        <!-- <img id="tempBackImg" class="fw-img" src="assets/instincts-website-layout-complete.png"> -->
+    </div>
+    <div id="layer-main" class="layer">
+        <div id="hero-container"></div>
+        <div id="star-events-container">
+            <div id="star-events-content-left"></div>
+            <div id="star-events-title">
+                <div>Star</div>
+                <div>Events</div>
+            </div>
+            <div id="star-events-content-right"></div>
         </div>
-
-        <!-- Modal -->
-        <div class="modal fade" id="eventModal" role="dialog">
-            <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    <h3 class="modal-title text-center">Events</h3>
-                    <div class="modal-disclaimer"><span class="visible-xs">(Click and Scroll Down to View)</span></div>
-                </div>
-                <div class="modal-body">
-
-                    <div class="left-pane">
-                        <!-- Your first column here -->
-                    </div>
-                    <div class="right-pane">
-                        <!-- Your second column here -->
-                        <div class="right-pane-header"></div>
-                        <div class="right-pane-content">
-                            <h4 style="text-align: center">Click on the clubs to view their events!</h4>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-            </div>
-
+        <div id="events-container">
+            <div id="events-title">Events</div>
+            <div id="events-content"></div>
+        </div>
+        <div id="hospitality-container">
         </div>
 
 
+        <div id="gallery">
+            <!--Gallery-->
+            <div class="col centerify">
+                <img id="showcase" src="img/jpg/IMG_4830.jpg"/>
+                <div id="thumbnails">
+                    <img src="img/thumb/IMG_4830.jpg"/>
+                    <img src="img/thumb/IMG_4884.jpg"/>
+                    <!--<img src="img/thumb/IMG_4893.jpg"/>-->
+                    <img src="img/thumb/IMG_5055.jpg"/>
+                    <img src="img/thumb/IMG_5492.jpg"/>
+                    <img src="img/thumb/IMG_5495.jpg"/>
+                    <img src="img/thumb/IMG_5504.jpg"/>
+                    <img src="img/thumb/IMG_5505.jpg"/>
+                    <img src="img/thumb/IMG_5531.jpg"/>
+                    <img src="img/thumb/IMG_5563.jpg"/>
+                    <img src="img/thumb/IMG_5584.jpg"/>
+                    <!--<img src="img/thumb/IMG_5756.jpg"/>-->
+                    <!--<img src="img/thumb/IMG_5777.jpg"/>-->
+                    <img src="img/thumb/IMG_6739.jpg"/>
+                    <img src="img/thumb/IMG_6769.jpg"/>
+                    <img src="img/thumb/IMG_6803.jpg"/>
+                    <img src="img/thumb/IMG_6895.jpg"/>
+                </div>
+            </div>
+        </div>
+        <div id="contact">
+            <div>
+            <img class="bg" src="assets/svgs/antarctica-footer-01.svg"/>
+            <img class="bg" src="assets/svgs/penguins-01.svg"/>
+            <img class="bg" src="assets/svgs/conatct-flight-01.svg"/>
+            <div>
+                <h1>Contact</h1>
+                <div>
+                    <p><img src="assets/icons/icon_phone.png"/>Phone</p>
+                    <p><img src="assets/icons/icon_mail.png"/>Mail id</p>
+                    <p><img src="assets/icons/icon_address.png"/>address</p>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>SSN college of Engineering.</p>
+                <p>All rights reserved.</p>
+            </div>
+            </div>
+        </div>
+
+    </div>
 
 
-        <script src="js/main.js"></script>
-        <script src="js/starEvents.js"></script>
-        <script src="js/events.js"></script>
-        <script src="res/mil.js"></script>
+</div>
+</div>
 
-        <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-        <script>
-            window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
-            ga('create','UA-XXXXX-Y','auto');ga('send','pageview')
-        </script>
-        <script src="https://www.google-analytics.com/analytics.js" async defer></script>
-    </body>
+<!-- Modal -->
+<div class="modal fade" id="eventModal" role="dialog">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h3 class="modal-title text-center">Events</h3>
+                <div class="modal-disclaimer"><span class="visible-xs">(Click and Scroll Down to View)</span></div>
+            </div>
+            <div class="modal-body">
+
+                <div class="left-pane">
+                    <!-- Your first column here -->
+                </div>
+                <div class="right-pane">
+                    <!-- Your second column here -->
+                    <div class="right-pane-header"></div>
+                    <div class="right-pane-content">
+                        <h4 style="text-align: center">Click on the clubs to view their events!</h4>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+
+<script src="js/main.js"></script>
+<script src="js/starEvents.js"></script>
+<script src="js/events.js"></script>
+<script src="res/mil.js"></script>
+
+<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+<script>
+    window.ga = function () {
+        ga.q.push(arguments)
+    };
+    ga.q = [];
+    ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto');
+    ga('send', 'pageview')
+</script>
+<script src="https://www.google-analytics.com/analytics.js" async defer></script>
+</body>
 </html>
 
