@@ -1,31 +1,30 @@
-*{
-  //border:1px dashed red;
+* {
+    //border:1px dashed red;
 }
 
-.sky-grad{
-    background:linear-gradient(180deg,#BBDEFB,#FFFFFF);
+.sky-grad {
+    background: linear-gradient(180deg, #BBDEFB, #FFFFFF);
 }
 
-.full-height-container{
-    height:125vh;
-    width:100vw;
+.full-height-container {
+    height: 125vh;
+    width: 100vw;
 
 }
 
-
-.parallax{
+.parallax {
     img.rellax {
         position: absolute;
         top: 0;
         left: 0;
     }
-    img.logo{
-       position:absolute;
-        top:0;
-        left:0;
-       //max-width:400px;
-       //top: 33%;
-       //left: 33%;
+    img.logo {
+        position: absolute;
+        top: 0;
+        left: 0;
+        //max-width:400px;
+        //top: 33%;
+        //left: 33%;
     }
     //#grass{
     //    @extend .full-height-container;
@@ -49,74 +48,102 @@
     //    background-repeat: no-repeat;
     //}
 
-
 }
 
-body{
-  //background: cyan;
+body {
+    //background: cyan;
 }
 
-.nav{
-    transition:0.4s;
-  display:flex;
-  flex-direction:column;
-  justify-content:space-between;
+.nav {
 
-  position: fixed;
-  background: rgba(255,255,255,0.7);
-  left:0;
-  top:0;
-  height:100%;
-  bottom:0;
-
-  a div{
+    transition: 0.4s;
     display: flex;
-    flex-direction: row;
-    position: relative;
-      justify-content: center;
-      align-items: center;
-      transition: 0.2s;
-    //width:48px;
-      span{
-          display:none;
-          font-family:"Cabin","sans-serif";
-          padding:8px;
-          color:#4d4d4d;
-      }
-      &:hover span{
+    flex-direction: column;
+    justify-content: space-between;
 
-            color:#26a69a;
-      }
+    position: fixed;
+    background: rgba(255, 255, 255, 0.7);
+    left: 0;
+    top: 0;
+    height: 100%;
+    bottom: 0;
+    @media only screen and (max-width:768px){
+        transform:translateX(-100%);
+    }
+    a div {
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        transition: 0.2s;
+        //width:48px;
+        span {
+            display: none;
 
-  }
-    &:hover a div span{
-        display:inline;
+            font-family: "Cabin", "sans-serif";
+            padding: 8px;
+            color: #4d4d4d;
+            @media only screen and (max-width:768px){
+                display:inline;
+            }
+        }
+        &:hover span {
+            color: #26a69a;
+        }
+
+    }
+    &:hover a div span {
+        display: inline;
     }
 
-  a img{
-    width:36px;
-    margin:8px;
-    opacity: 0.7;
-    transition:0.2s ease-out;
-    //height:36px;
-  }
-  a:hover img{
-    width: 48px;
-    opacity: 1;
-  }
-}
+    a img {
+        width: 36px;
+        margin: 8px;
+        opacity: 0.7;
+        transition: 0.2s ease-out;
+        //height:36px;
+    }
+    a:hover img {
+        width: 48px;
+        opacity: 1;
+    }
 
-
-#showcase{
-    max-width:600px;
-    height:auto;
-    margin:32px auto;
 }
-#thumbnails {
-    max-width: 600px;
-    img {
-        width: 60px;
+#nav-opener{
+    background: rgba(255, 255, 255, 0.7);
+    position:fixed;
+    right:0px;
+    top:0px;
+    z-index:999;
+    @media only screen and (min-width:768px){
+        display:none;
+    }
+}
+#gallery {
+    background: cyan url(../assets/svgs/continents_america.svg);
+    background-repeat: no-repeat;
+    padding: 32px 8px;
+
+    #showcase {
+        max-width: 600px;
+        width: 100%;
         height: auto;
+        margin: 32px auto;
+        @media only scren and (max-width:768px){
+            max-width: 100%;
 
+        }
+    }
+    #thumbnails {
+
+        max-width: 100%;
+        overflow-x: scroll;
+        display: flex;
+        img {
+            width: 60px;
+            height: auto;
+            margin:auto 8px;
+        }
     }
 }

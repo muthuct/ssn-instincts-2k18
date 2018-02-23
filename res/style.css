@@ -25,6 +25,9 @@
   top: 0;
   height: 100%;
   bottom: 0; }
+  @media only screen and (max-width: 768px) {
+    .nav {
+      transform: translateX(-100%); } }
   .nav a div {
     display: flex;
     flex-direction: row;
@@ -34,9 +37,12 @@
     transition: 0.2s; }
     .nav a div span {
       display: none;
-      font-family: "Cabin","sans-serif";
+      font-family: "Cabin", "sans-serif";
       padding: 8px;
       color: #4d4d4d; }
+      @media only screen and (max-width: 768px) {
+        .nav a div span {
+          display: inline; } }
     .nav a div:hover span {
       color: #26a69a; }
   .nav:hover a div span {
@@ -50,15 +56,35 @@
     width: 48px;
     opacity: 1; }
 
-#showcase {
-  max-width: 600px;
-  height: auto;
-  margin: 32px auto; }
+#nav-opener {
+  background: rgba(255, 255, 255, 0.7);
+  position: fixed;
+  right: 0px;
+  top: 0px;
+  z-index: 999; }
+  @media only screen and (min-width: 768px) {
+    #nav-opener {
+      display: none; } }
 
-#thumbnails {
-  max-width: 600px; }
-  #thumbnails img {
-    width: 60px;
-    height: auto; }
+#gallery {
+  background: cyan url(../assets/svgs/continents_america.svg);
+  background-repeat: no-repeat;
+  padding: 32px 8px; }
+  #gallery #showcase {
+    max-width: 600px;
+    width: 100%;
+    height: auto;
+    margin: 32px auto; }
+    @media only scren and (max-width: 768px) {
+      #gallery #showcase {
+        max-width: 100%; } }
+  #gallery #thumbnails {
+    max-width: 100%;
+    overflow-x: scroll;
+    display: flex; }
+    #gallery #thumbnails img {
+      width: 60px;
+      height: auto;
+      margin: auto 8px; }
 
 /*# sourceMappingURL=style.css.map */
