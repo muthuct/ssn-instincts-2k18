@@ -7,6 +7,6 @@ An event for the Grammar Nazis to reign supreme.If you can make us laugh while s
 * Mod is God.
 
 #### <!-- <i class="fas fa-phone"></i> --> Contact:
-* Anirudh Shenoy
-* Jakkula Divya Tej
-* Akshara Kannan.
+* Anirudh Shenoy - 8695696722
+* Jakkula Divya Tej - 9791098662
+* Akshara Kannan

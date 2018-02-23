@@ -12,4 +12,4 @@ Welcome to the most insanely fun competition of them all.This is a crazy mix of 
  * Make money
 
 #### <!-- <i class="fas fa-phone"></i> --> Contact:
-Ganapathi Ramanathan
+Ganapathi Ramanathan - 9003134586

@@ -9,6 +9,6 @@ Battle it out in a mock trial as you are forced to defend yourself in outlandish
    + 5 minutes of defending yourself +2 minute rebuttal from the judge
 
 #### <!-- <i class="fas fa-phone"></i> --> Contact:
++ Shruthi Sundar - 9543120196
 + Sushilika Salvi
 + Akshay Kanna
-+ Shruthi Sundar

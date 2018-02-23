@@ -9,4 +9,4 @@ Debate will require teams of 2 and will have prelims.Information of the detailed
 soon.
 
 #### <!-- <i class="fas fa-phone"></i> --> Contact:
-Vaibhav
+Avinash Bharat - 9042813753
