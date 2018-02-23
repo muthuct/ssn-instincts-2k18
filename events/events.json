@@ -2,6 +2,7 @@
     "ELC": {
       "name": "ELC",
       "friendlyName": "English Club",
+      "bgURL": "assets/events-bg/events-ELC-England-01.svg.png",
       "events": [
         "Jam",
         "Potpourri",
@@ -14,6 +15,7 @@
     "Saaral": {
       "name": "Saaral",
       "friendlyName": "Tamil Club",
+      "bgURL": "assets/events-bg/events-Saaral-Tamilnadu.svg",
       "events": [
         "சகலகலா வல்லவன்",
         "கலக்கல் கவிதை",
@@ -29,6 +31,7 @@
     "lop": {
       "name": "Lights Out Please!",
       "friendlyName": "Drama Club",
+      "bgURL": "assets/events-bg/events-LOP-Paris.svg.png",
       "events": [
         "24 Hour Theatre",
         "Monoacting"
@@ -37,6 +40,7 @@
     "rof": {
       "name": "Film Club",
       "friendlyName": "Film Club",
+      "bgURL": "assets/events-bg/events-ELC-England-01.svg.png",
       "events": [
         "Reels of Fire"
       ]
@@ -44,6 +48,7 @@
     "fineArts": {
       "name": "Fine Arts",
       "friendlyName": "Fine Arts",
+      "bgURL": "assets/events-bg/events-FineArts-Russia-01.svg",
       "events": [
         "B/W SKETCHING",
         "ADULT COLORING CONTEST",
@@ -54,7 +59,8 @@
     },
     "classicalDance": {
       "name": "Classical Dance Club",
-      "friendlyName": "Classical Dance Club",
+      "friendlyName": "Dance Club",
+      "bgURL": "assets/events-bg/events-ELC-England-01.svg.png",
       "events": [
         "Classical Solo Dance"
       ]
@@ -62,6 +68,7 @@
     "musicClub": {
       "name": "Music Club",
       "friendlyName": "Music Club",
+      "bgURL": "assets/events-bg/events-Music-Mexico.svg",
       "events": [
         "Dhwani - Light Music Band event",
         "SSN Idol - Light music vocal solo event",
@@ -73,6 +80,7 @@
     "photography": {
       "name": "Photography",
       "friendlyName": "Photography",
+      "bgURL": "assets/events-bg/events-Photography-Egypt.svg",
       "events": [
         "Online photography contest",
         "Let the Experts Talk (LET)"
@@ -81,6 +89,7 @@
     "varietyEvents": {
       "name": "Variety Events",
       "friendlyName": "Variety Events",
+      "bgURL": "assets/events-bg/events-ELC-England-01.svg.png",
       "events": [
         "Adzap",
         "Mix and Match",
@@ -93,6 +102,7 @@
     "qFactorial": {
       "name": "Q Factorial!",
       "friendlyName": "Quiz Club",
+      "bgURL": "assets/events-bg/events-Quiz-China-01.svg",
       "events": [
         "General Quiz",
         "SpEnt Quiz",

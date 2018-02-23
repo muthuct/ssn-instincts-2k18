@@ -24,10 +24,11 @@
         <link rel="stylesheet" href="./res/tesla2-prefixed.css"/>
         <link rel="stylesheet" href="./res/style.css"/>
         <script src="./res/rellax.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
         <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
         <link rel="stylesheet" href="css/fonts.css">
         <link rel="stylesheet" href="css/devel-index.css">
+        <link rel="stylesheet" href="css/events.css">
     </head>
     <body>
         <!--[if lte IE 9]>
@@ -132,25 +133,23 @@
         </div>
 
         <!-- Modal -->
-        <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal fade" id="eventModal" role="dialog">
             <div class="modal-dialog modal-lg">
-            <div class="modal-content" style="background-color:rgba(0,0,0,0.8);color:white;">
+            <div class="modal-content">
                 <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" style="color:white;">&times;</button>
-                    <h3 class="modal-title text-center">Events
-                        <span class="visible-xs">(Click and Scroll Down to View)</span>
-                    </h3>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h3 class="modal-title text-center">Events</h3>
+                    <div class="modal-disclaimer"><span class="visible-xs">(Click and Scroll Down to View)</span></div>
                 </div>
+                <div class="modal-body">
 
-                <div class="modal-body row">
-
-                    <div class="col-sm-2 text-center" id="left-side-pane" style="border-right:2px solid #fefefe">
+                    <div class="left-pane">
                         <!-- Your first column here -->
                     </div>
-                    <div class="col-sm-10" style="padding-left:20px;" id="right-side-pane">
+                    <div class="right-pane">
                         <!-- Your second column here -->
-                        <div id="right-side-pane-header"></div>
-                        <div id="right-side-pane-content">
+                        <div class="right-pane-header"></div>
+                        <div class="right-pane-content">
                             <h4 style="text-align: center">Click on the clubs to view their events!</h4>
                         </div>
                     </div>
@@ -158,6 +157,7 @@
 
             </div>
             </div>
+
         </div>
 
         <script src="js/main.js"></script>
