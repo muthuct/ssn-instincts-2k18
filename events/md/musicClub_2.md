@@ -25,7 +25,9 @@
   * One instrumental accompaniment may be used.
   * Rest of the rules are the same as in the prelims round.
   * As always, the judge’s decision will be final.
-            
+
+#### Registration:
+  On spot and online            
 
 #### <!-- <i class="fas fa-phone"></i> --> Contact:
   * Manasvi - 9176745455
