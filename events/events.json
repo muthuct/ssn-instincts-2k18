@@ -2,7 +2,7 @@
   "ELC": {
     "name": "English Literary Club",
     "friendlyName": "English Literature",
-    "bgURL": "assets/events-bg/events-ELC-England-01.svg.png",
+    "bgURL": "assets/events-bg/events-ELC-England-01.jpg",
     "events": [
       "Jam",
       "Potpourri",
@@ -63,7 +63,7 @@
   "lop": {
     "name": "Lights Out Please!",
     "friendlyName": "Drama",
-    "bgURL": "assets/events-bg/events-LOP-Paris.svg",
+    "bgURL": "assets/events-bg/events-LOP-Paris.png",
     "events": [
       "24 Hour Theatre",
       "Monoacting"
@@ -92,7 +92,7 @@
   "varietyEvents": {
     "name": "Variety Events",
     "friendlyName": "Variety Events",
-    "bgURL": "assets/events-bg/events-Variety-Japan-01.png",
+    "bgURL": "assets/events-bg/events-Variety-Japan-01.jpg",
     "events": [
       "Adzap",
       "Mix and Match",
