@@ -95,7 +95,7 @@ let parallax = (function () {
   function update() {
     if (updateScrollPosition()) {
       animate()
-      console.log(scrollRatio)
+      // console.log(scrollRatio)
     }
 
     loop(update)

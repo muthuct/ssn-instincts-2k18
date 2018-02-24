@@ -295,6 +295,10 @@ a:focus {
     .section-mobile-vmargin {
         margin: 6rem 0;
     }
+
+    .nv-600 {
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 600px) {
