@@ -79,7 +79,7 @@
 .club-link
 {
     color: #00897b;
-    text-shadow: 0 0 0px white, 0 0 0px white, 0 0 0px white, 0 0 0px white;
+    text-shadow: 0 0 0px transparent, 0 0 0px transparent, 0 0 0px transparent, 0 0 0px transparent;
     -webkit-transition: all 0.15s ease-in-out;
     -moz-transition: all 0.15s ease-in-out;
     transition: all 0.15s ease-in-out;

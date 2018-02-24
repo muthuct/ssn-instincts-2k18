@@ -59,6 +59,10 @@ a:focus {
     position: absolute;
 }
 
+#layer-bg-2 {
+    position: fixed;
+}
+
 #homepage-bg {
     position: absolute;
     top: 180px;
@@ -267,4 +271,28 @@ a:focus {
 #gallery-container {
     position: relative;
     min-height: 56.25vw;
+}
+
+@media only screen and (max-width: 600px) {
+    .section-mobile-vmargin {
+        margin: 6rem 0;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    html {
+        font-size: 0.8em;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    html {
+        font-size: 0.7em;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    html {
+        font-size: 0.6em;
+    }
 }

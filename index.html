@@ -21,11 +21,9 @@
     <link rel="stylesheet" href="css/vendor/bootstrap.min.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
-    <!-- <link rel="stylesheet" href="./res/tesla2-prefixed.css"/> -->
     <link rel="stylesheet" href="./res/style.css" />
     <script src="./res/rellax.js"></script>
-    <!-- <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet"> -->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cabin|Montserrat" rel="stylesheet">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/devel-index.css">
     <link rel="stylesheet" href="css/events.css">
@@ -149,43 +147,51 @@
             <!-- <img id="tempBackImg" class="fw-img" src="assets/instincts-website-layout-complete.png"> -->
         </div>
         <div id="layer-main" class="layer">
-            <div id="hero-container"></div>
-            <div id="star-events-container">
-                <div id="star-events-content-left"></div>
-                <div id="star-events-title">
-                    <div>Star</div>
-                    <div>Events</div>
+            <div class="section-mobile-vmargin"><div id="hero-container"></div></div>
+            <div class="section-mobile-vmargin">
+                <div id="star-events-container">
+                    <div id="star-events-content-left"></div>
+                    <div id="star-events-title">
+                        <div>Star</div>
+                        <div>Events</div>
+                    </div>
+                    <div id="star-events-content-right"></div>
                 </div>
-                <div id="star-events-content-right"></div>
             </div>
-            <div id="events-container">
-                <div id="events-title">Events</div>
-                <div id="events-content"></div>
+            <div class="section-mobile-vmargin">
+                <div id="events-container">
+                    <div id="events-title">Events</div>
+                    <div id="events-content"></div>
+                </div>
             </div>
-            <div id="hospitality-container">
-                <div class="container hosp-content">
-                    <div class="section-title text-center goodvibes">Hospitality</div>
-                    <div class="row">
-                        <div class="col-sm-6 hosp-box">
-                            <h2 class="hosp-box-title">Accomodation</h2>
-                            <p class="cabin">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum, placeat doloremque. Laboriosam
-                                eaque itaque praesentium unde tempore impedit quisquam rerum, ab voluptate natus, iste sit
-                                corporis! Numquam veritatis nesciunt architecto!</p>
-                        </div>
-                        <div class="col-sm-6 hosp-box">
-                            <h2 class="hosp-box-title">Bus Routes</h2>
-                            <p class="cabin">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum, placeat doloremque. Laboriosam
-                                eaque itaque praesentium unde tempore impedit quisquam rerum, ab voluptate natus, iste sit
-                                corporis! Numquam veritatis nesciunt architecto!</p>
+            <div class="section-mobile-vmargin">
+                <div id="hospitality-container">
+                    <div class="container hosp-content">
+                        <div class="section-title text-center goodvibes">Hospitality</div>
+                        <div class="row">
+                            <div class="col-sm-6 hosp-box">
+                                <h2 class="hosp-box-title">Accomodation</h2>
+                                <p class="cabin">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum, placeat doloremque. Laboriosam
+                                    eaque itaque praesentium unde tempore impedit quisquam rerum, ab voluptate natus, iste sit
+                                    corporis! Numquam veritatis nesciunt architecto!</p>
+                            </div>
+                            <div class="col-sm-6 hosp-box">
+                                <h2 class="hosp-box-title">Transportation</h2>
+                                <p class="cabin">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum, placeat doloremque. Laboriosam
+                                    eaque itaque praesentium unde tempore impedit quisquam rerum, ab voluptate natus, iste sit
+                                    corporis! Numquam veritatis nesciunt architecto!</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div id="sponsors-container">
-                <div class="container sponsors-content">
-                    <div class="section-title text-center goodvibes">Sponsors</div>
-                    <div class="row">
+            <div class="section-mobile-vmargin">
+                <div id="sponsors-container">
+                    <div class="container sponsors-content">
+                        <div class="section-title text-center goodvibes">Sponsors</div>
+                        <div class="row">
 
+                        </div>
                     </div>
                 </div>
             </div>
@@ -339,6 +345,7 @@
     <script src="js/starEvents.js"></script>
     <script src="js/events.js"></script>
     <script src="res/mil.js"></script>
+    <script src="js/parallax.js"></script>
 
     <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
     <script>
@@ -347,7 +354,7 @@
         };
         ga.q = [];
         ga.l = +new Date;
-        ga('create', 'UA-XXXXX-Y', 'auto');
+        ga('create', 'UA-113268948-1', 'auto');
         ga('send', 'pageview')
     </script>
     <script src="https://www.google-analytics.com/analytics.js" async defer></script>
