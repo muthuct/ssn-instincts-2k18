@@ -234,7 +234,8 @@ a:focus {
     text-align: justify;
 
     font-family: Cabin;
-    font-size: 1.5rem;
+    font-size: 1rem;
+    font-weight: 500;
     /* display: flex; */
     /* margin: 0 9vw; */
 }
@@ -250,6 +251,23 @@ a:focus {
     text-align: center;
 
     color: #00897b;
+}
+
+.accom-register-btn:focus,
+.accom-register-btn {
+    cursor: pointer;
+    text-decoration: none;
+    color: #00897b;
+    border: 1px solid #00897b;
+    border-radius: 100vh;
+    background-color: rgba(255, 255, 255, 0.35);
+    padding: 0.25rem 1.5rem;
+}
+
+.accom-register-btn:hover {
+    text-decoration: none;
+    background-color: #00897b;
+    color: white;
 }
 
 #sponsors-container {
