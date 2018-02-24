@@ -1,3 +1,27 @@
+body {
+    overflow-y: overlay;
+}
+
+a:focus {
+    outline: 0;
+}
+
+.cabin {
+    font-family: Cabin, sans-serif;
+}
+
+.loguetown {
+    font-family: Loguetown, sans-serif;
+}
+
+.goodvibes {
+    font-family: Good-Vibes, sans-serif;
+}
+
+.montserrat {
+    font-family: Montserrat, sans-serif;
+}
+
 #tempBackImg {
     opacity: 0.7;
 }
@@ -7,8 +31,23 @@
     width: 100%;
 }
 
+.sea-grad {
+    background-color: #b2ebf2;
+}
+
 .fw-img {
     width: 100%;
+}
+
+.bg-section {
+    position: relative;
+}
+
+.abs-w-100 {
+    position: absolute;
+    width:100%;
+    left: 0;
+    top: 0;
 }
 
 #site-content-div {
@@ -86,7 +125,7 @@
     font-family: Loguetown;
     font-size: 3rem;
     line-height: 7rem;
-    color: red;
+    color: #00897b;
     flex: 1 1 0;
     display: flex;
     flex-direction: column;
@@ -155,8 +194,7 @@
     font-family: Loguetown;
     font-size: 2.5rem;
     line-height: 7rem;
-    color: red;
-    flex: 1 1 0;
+    /* flex: 1 1 0; */
     flex-wrap: wrap;
     display: flex;
     justify-content: center;
@@ -183,4 +221,50 @@
     #events-content a {
         width: 100%;
     }
+}
+
+#hospitality-container {
+    position: relative;
+    min-height: 56.25vw;
+
+    text-align: justify;
+
+    font-family: Cabin;
+    font-size: 1.5rem;
+    /* display: flex; */
+    /* margin: 0 9vw; */
+}
+
+.hosp-box {
+    padding: 0 3vw;
+}
+
+
+.hosp-box-title {
+    font-size: 3rem;
+    font-family: Loguetown;
+    text-align: center;
+
+    color: #00897b;
+}
+
+#sponsors-container {
+    position: relative;
+    min-height: 56.25vw;
+
+    /* display: flex; */
+    /* margin: 0 15vw; */
+}
+
+.section-title {
+    padding: 2rem 0;
+    font-size: 7rem;
+    line-height: 7rem;
+    color: #2d5f73;
+}
+
+
+#gallery-container {
+    position: relative;
+    min-height: 56.25vw;
 }

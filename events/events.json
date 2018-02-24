@@ -1,113 +1,116 @@
 {
-    "ELC": {
-      "name": "English Literary Club",
-      "friendlyName": "English Literature",
-      "bgURL": "assets/events-bg/events-ELC-England-01.svg.png",
-      "events": [
-        "Jam",
-        "Potpourri",
-        "Character Showdown",
-        "Debate",
-        "Lawyer Up",
-        "Creative Writing"
-      ]
-    },
-    "Saaral": {
-      "name": "சாரல்",
-      "friendlyName": "Tamil Literature",
-      "bgURL": "assets/events-bg/events-Saaral-Tamilnadu.svg",
-      "events": [
-        "சகலகலா வல்லவன்",
-        "கலக்கல் கவிதை",
-        "கிறுக்கெழுத்து படைப்பக்கப்போட்டி",
-        "சிறுகதைப் போட்டி",
-        "குறுக்கெழுத்து போட்டி",
-        "வாயை மூடி பேசவும்",
-        "கோலப்போட்டி",
-        "பேச்சு போட்டி",
-        "பட்டிமன்றம்"
-      ]
-    },
-    "lop": {
-      "name": "Lights Out Please!",
-      "friendlyName": "Drama",
-      "bgURL": "assets/events-bg/events-LOP-Paris.svg",
-      "events": [
-        "24 Hour Theatre",
-        "Monoacting"
-      ]
-    },
-    "rof": {
+  "ELC": {
+    "name": "English Literary Club",
+    "friendlyName": "English Literature",
+    "bgURL": "assets/events-bg/events-ELC-England-01.svg.png",
+    "events": [
+      "Jam",
+      "Potpourri",
+      "Character Showdown",
+      "Debate",
+      "Lawyer Up",
+      "Creative Writing"
+    ]
+  },
+  "Saaral": {
+    "name": "சாரல்",
+    "friendlyName": "Tamil Literature",
+    "bgURL": "assets/events-bg/events-Saaral-Tamilnadu.svg",
+    "events": [
+      "சகலகலா வல்லவன்",
+      "கலக்கல் கவிதை",
+      "கிறுக்கெழுத்து போட்டி",
+      "சிறுகதைப் போட்டி",
+      "குறுக்கெழுத்து போட்டி",
+      "வாயை மூடி பேசவும்",
+      "கோலப்போட்டி",
+      "பேச்சு போட்டி",
+      "பட்டிமன்றம்"
+    ]
+  },
+  "dance": {
+    "name": "Dance",
+    "friendlyName": "Dance",
+    "bgURL": "assets/events-bg/events-n2k-Brazil.svg",
+    "events": [
+      "Choreonite",
+      "Solo Dance",
+      "Adapt Tune",
+      "Classical Solo Dance"
+    ]
+  },
+  "photography": {
+    "name": "Photography",
+    "friendlyName": "Photography",
+    "bgURL": "assets/events-bg/events-Photography-Egypt.svg",
+    "events": [
+      "Online photography contest",
+      "Let the Experts Talk (LET)"
+    ]
+  },
+  "musicClub": {
+    "name": "Music",
+    "friendlyName": "Music",
+    "bgURL": "assets/events-bg/events-Music-Mexico.svg",
+    "events": [
+      "Dhwani - Light Music Band event",
+      "SSN Idol - Light music vocal solo event",
+      "Electrix - Western Band Event",
+      "Swaralaya - Carnatic Music Event",
+      "Acoustics And A Capella"
+    ]
+  },
+  "lop": {
+    "name": "Lights Out Please!",
+    "friendlyName": "Drama",
+    "bgURL": "assets/events-bg/events-LOP-Paris.svg",
+    "events": [
+      "24 Hour Theatre",
+      "Monoacting"
+    ]
+  },
+  "rof": {
       "name": "Film Club",
       "friendlyName": "Short Films",
-      "bgURL": "assets/events-bg/events-FilmClub-USA1.svg",
-      "events": [
-        "Reels of Fire"
-      ]
-    },
-    "fineArts": {
-      "name": "Fine Arts",
-      "friendlyName": "Fine Arts",
-      "bgURL": "assets/events-bg/events-FineArts-Russia-01.svg",
-      "events": [
-        "B/W SKETCHING",
-        "ADULT COLORING CONTEST",
-        "INK IT! - MEHENDI AND TATTOO COMPETITION",
-        "MURAL PAINTING",
-        "DOODLE WAR"
-      ]
-    },
-    "classicalDance": {
-      "name": "Dance",
-      "friendlyName": "Dance",
-      "bgURL": "assets/events-bg/events-n2k-Brazil.svg",
-      "events": [
-        "Classical Solo Dance"
-      ]
-    },
-    "musicClub": {
-      "name": "Music",
-      "friendlyName": "Music",
-      "bgURL": "assets/events-bg/events-Music-Mexico.svg",
-      "events": [
-        "Dhwani - Light Music Band event",
-        "SSN Idol - Light music vocal solo event",
-        "Electrix - Western Band Event",
-        "Swaralaya - Carnatic Music Event",
-        "Acoustics And A Capella"
-      ]
-    },
-    "photography": {
-      "name": "Photography",
-      "friendlyName": "Photography",
-      "bgURL": "assets/events-bg/events-Photography-Egypt.svg",
-      "events": [
-        "Online photography contest",
-        "Let the Experts Talk (LET)"
-      ]
-    },
-    "varietyEvents": {
-      "name": "Variety Events",
-      "friendlyName": "Variety Events",
-      "bgURL": "assets/events-bg/events-Variety-Japan-01.png",
-      "events": [
-        "Adzap",
-        "Mix and Match",
-        "IPL Bidding",
-        "60s - Channel Surfing",
-        "Treasure Hunt",
-        "Variety Show"
-      ]
-    },
-    "qFactorial": {
-      "name": "Q Factorial!",
-      "friendlyName": "Quiz",
-      "bgURL": "assets/events-bg/events-Quiz-China-01.svg",
-      "events": [
-        "General Quiz",
-        "SpEnt Quiz",
-        "Fandom Quiz",
-        "Online Quiz"
-      ]
-    }
+    "bgURL": "assets/events-bg/events-FilmClub-USA1.svg",
+    "events": [
+      "Reels of Fire"
+    ]
+  },
+  "fineArts": {
+    "name": "Fine Arts",
+    "friendlyName": "Fine Arts",
+    "bgURL": "assets/events-bg/events-FineArts-Russia-01.svg",
+    "events": [
+      "B/W SKETCHING",
+      "ADULT COLORING CONTEST",
+      "INK IT! - MEHENDI AND TATTOO COMPETITION",
+      "MURAL PAINTING",
+      "DOODLE WAR"
+    ]
+  },
+  "varietyEvents": {
+    "name": "Variety Events",
+    "friendlyName": "Variety Events",
+    "bgURL": "assets/events-bg/events-Variety-Japan-01.png",
+    "events": [
+      "Adzap",
+      "Mix and Match",
+      "IPL Bidding",
+      "60s - Channel Surfing",
+      "Treasure Hunt",
+      "Variety Show"
+    ]
+  },
+  "qFactorial": {
+    "name": "Q Factorial!",
+    "friendlyName": "Quiz",
+    "bgURL": "assets/events-bg/events-Quiz-China-01.svg",
+    "events": [
+      "General Quiz",
+      "SpEnt Quiz",
+      "Fandom Quiz",
+      "Online Quiz"
+    ]
   }
+}

@@ -42,7 +42,7 @@
                 // console.log(self.galleryCount);
                 self.galleryCount++;
 
-                if (self.galleryCount > self.imageList.length) {
+                if (self.galleryCount >= self.imageList.length) {
                     self.galleryCount %= self.imageList.length;
                 }
                 self.thumbToShowcase(self.imageList[self.galleryCount]);
@@ -55,10 +55,10 @@
             $("#nav-opener img").slideToggle();
             if(navState = !navState);
             if(navState){
-                 $(".nav").css("transform","translateX(0px)");
+                 $(".my-nav").css("transform","translateX(0px)");
             }
             else{
-                $(".nav").css("transform","translateX(-100%)");
+                $(".my-nav").css("transform","translateX(-100%)");
             }
         });
         $("#thumbnails img[src]").click(function () {
