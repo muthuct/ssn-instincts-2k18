@@ -35,10 +35,6 @@ a:focus {
     background-color: #b2ebf2;
 }
 
-.fw-img {
-    width: 100%;
-}
-
 .bg-section {
     position: relative;
 }
@@ -54,13 +50,20 @@ a:focus {
     position: relative;
 }
 
-#layer-bg-devel,
-#layer-bg-1 {
-    position: absolute;
+#layer-bg-devel {
+    position: fixed;
+    z-index: 500;
 }
 
-#layer-bg-2 {
+#layer-bg-0,
+#layer-bg-1,
+#layer-bg-2,
+#layer-bg-3
+{
     position: fixed;
+    /* -webkit-transition: all 0.05s linear; */
+    /* -moz-transition: all 0.05s linear; */
+    /* transition: all 0.05s linear; */
 }
 
 #homepage-bg {
@@ -92,6 +95,16 @@ a:focus {
 #hero-container {
     position: relative;
     min-height: 56.25vw;
+}
+
+#typography-container {
+    max-width: 300px;
+    margin: 5rem auto;
+}
+
+#hero-container .logo-container {
+    max-width: 70px;
+    margin: 5rem auto;
 }
 
 #star-events-container {
@@ -278,6 +291,50 @@ a:focus {
     /* margin: 0 15vw; */
 }
 
+#sponsors-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#sponsors-content div {
+    /* max-height: 6rem; */
+    width: 33%;
+    padding: 3rem 6rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 1000px) {
+    #sponsors-content div {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #sponsors-content div {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    #sponsors-content div {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    #sponsors-content div {
+        width: 90%;
+    }
+}
+
+#sponsors-content div img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
 .section-title {
     padding: 2rem 0;
     font-size: 7rem;
@@ -285,15 +342,43 @@ a:focus {
     color: #2d5f73;
 }
 
-
 #gallery-container {
     position: relative;
     min-height: 56.25vw;
 }
 
+#contact-container {
+    position: relative;
+    min-height: 46.25vw;
+}
+
+#contact-container .contact-content {
+    margin: auto;
+    max-width: 400px;
+    text-align: center;
+    padding: 3rem 0;
+}
+
+.copyright-container {
+    text-align: center;
+}
+
 @media only screen and (max-width: 600px) {
     .section-mobile-vmargin {
         margin: 6rem 0;
+    }
+
+    .section-mobile-vpadding {
+        padding: 10rem 0;
+    }
+
+    .nv-600 {
+        display: none;
+    }
+
+    #hero-container .logo-container {
+        max-width: 50px;
+        margin: 3rem auto;
     }
 }
 

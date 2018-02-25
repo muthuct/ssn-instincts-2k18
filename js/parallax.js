@@ -1,12 +1,18 @@
 let parallax = (function () {
   let selectors = {
     mainLayer: "#layer-main",
-    bg2Layer: "#layer-bg-2"
+    bg0Layer: "#layer-bg-0",
+    bg1Layer: "#layer-bg-1",
+    bg2Layer: "#layer-bg-2",
+    bg3Layer: "#layer-bg-3"
   }
 
   let els = {
     mainLayer: document.querySelector(selectors.mainLayer),
-    bg2Layer: document.querySelector(selectors.bg2Layer)
+    bg0Layer: document.querySelector(selectors.bg0Layer),
+    bg1Layer: document.querySelector(selectors.bg1Layer),
+    bg2Layer: document.querySelector(selectors.bg2Layer),
+    bg3Layer: document.querySelector(selectors.bg3Layer)
   }
 
   let loop = window.requestAnimationFrame ||
@@ -89,13 +95,16 @@ let parallax = (function () {
   function animate() {
 
     let yVal = -((scrollRatio * bgDimen.hiddenHeight) / bgDimen.height) * 100
+    els.bg0Layer.style[transformProp] = 'translate3d(0px,' + yVal + '%, 0px)';
+    els.bg1Layer.style[transformProp] = 'translate3d(0px,' + yVal + '%, 0px)';
     els.bg2Layer.style[transformProp] = 'translate3d(0px,' + yVal + '%, 0px)';
+    els.bg3Layer.style[transformProp] = 'translate3d(0px,' +  yVal + '%, 0px)';
   }
 
   function update() {
     if (updateScrollPosition()) {
       animate()
-      console.log(scrollRatio)
+      // console.log(scrollRatio)
     }
 
     loop(update)
