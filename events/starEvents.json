@@ -1,20 +1,45 @@
 {
-  "proshow": {
-    "name": "Pro Show"
+  "proShow": {
+    "name": "Pro Show",
+    "friendlyName": "Pro Show",
+    "events": [
+      "Pro Show"
+    ]
   },
   "varietyShow": {
-    "name": "Variety Show"
+    "name": "Variety Show",
+    "friendlyName": "Variety Show",
+    "events": [
+      "Variety Show"
+    ]
   },
   "djNight": {
-    "name": "DJ Night"
+    "name": "DJ Night",
+    "friendlyName": "DJ Night",
+    "events": [
+      "DJ Night"
+    ]
   },
   "bikeStunt": {
-    "name": "Bike Stunt"
+    "name": "Bike Stunt",
+    "friendlyName": "Bike Stunt",
+    "events": [
+      "Bike Stunt"
+    ]
   },
   "choreoNight": {
-    "name": "Choreo Night"
+    "name": "Choreo Night",
+    "friendlyName": "Choreo Night",
+    "events": [
+      "Choreo Night"
+    ]
   },
   "workshops": {
-    "name": "Workshops"
+    "name": "Workshops",
+    "friendlyName": "Workshops",
+    "events": [
+      "Photography Workshop",
+      "Design Workshop (by Madrasters)"
+    ]
   }
 }

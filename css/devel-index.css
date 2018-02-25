@@ -350,13 +350,33 @@ a:focus {
 #contact-container {
     position: relative;
     min-height: 46.25vw;
+
+    text-align: center;
 }
 
 #contact-container .contact-content {
+    display: inline-flex;
+    flex-direction: column;
     margin: auto;
-    max-width: 400px;
+    /* max-width: 300px; */
     text-align: center;
     padding: 3rem 0;
+}
+
+.contact-item {
+    display: flex;
+}
+
+.contact-item-content {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+}
+
+.contact-ext-links {
+    padding-top: 4rem;
 }
 
 .copyright-container {

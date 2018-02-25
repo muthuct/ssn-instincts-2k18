@@ -56,6 +56,12 @@
     padding: 1rem;
 }
 
+#starEventModal .modal-body-content img {
+    display: block;
+    margin: auto;
+    max-width: 500px;
+}
+
 .club-link,
 .club-event-link,
 .club-link:hover,
