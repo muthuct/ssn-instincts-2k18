@@ -23,6 +23,12 @@
     border-radius: 0;
 }
 
+#credits-modal-content {
+    background-color: rgb(0, 0, 0)!important;
+    color: white;
+    box-shadow: none;
+    border-radius: 0;
+}
 .modal-body,
 #eventModal .modal-body {
     padding: 0;
@@ -130,4 +136,8 @@
         flex: unset;
         padding: 1rem;
     }
+}
+
+#credits-body a {
+    color: #fff !important;
 }
