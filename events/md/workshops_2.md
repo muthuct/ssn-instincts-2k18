@@ -1,5 +1,7 @@
 ### Design Principles, Awareness and Trends
 
+![Madrasters][curImg]
+
 #### Venue: Mini Auditorium
 
 #### Timing: March 10th, 9.00 AM to 1.00 PM
@@ -14,3 +16,5 @@
 #### <!-- <i class="fas fa-phone"></i> --> Contact:
   * Shailesh S - 7299889276
   * Karthika D S - 9790713083
+
+[curImg]: ./img/jpg/madrasters.png

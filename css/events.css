@@ -62,6 +62,12 @@
     max-width: 500px;
 }
 
+.right-pane-content img {
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
 .club-link,
 .club-event-link,
 .club-link:hover,
