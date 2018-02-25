@@ -55,11 +55,11 @@ a:focus {
     z-index: 500;
 }
 
-#layer-bg-1 {
-    position: absolute;
-}
-
-#layer-bg-2 {
+#layer-bg-0,
+#layer-bg-1,
+#layer-bg-2,
+#layer-bg-3
+{
     position: fixed;
     /* -webkit-transition: all 0.05s linear; */
     /* -moz-transition: all 0.05s linear; */
@@ -349,11 +349,18 @@ a:focus {
 
 #contact-container {
     position: relative;
-    min-height: 56.25vw;
+    min-height: 46.25vw;
 }
 
 #contact-container .contact-content {
-margin: auto;
+    margin: auto;
+    max-width: 400px;
+    text-align: center;
+    padding: 3rem 0;
+}
+
+.copyright-container {
+    text-align: center;
 }
 
 @media only screen and (max-width: 600px) {

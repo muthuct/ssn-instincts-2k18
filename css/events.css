@@ -72,7 +72,8 @@
 .club-link:hover
 {
     color: #00897b;
-    text-shadow: 0 0 5px white, 0 0 5px white, 0 0 5px white,0 0 5px white;
+    text-shadow: 0 0 3px rgba(255, 255, 255, 0.3), 0 0 3px rgba(255, 255, 255, 0.3), 0 0 3px rgba(255, 255, 255, 0.3),0 0 3px rgba(255, 255, 255, 0.3);
+    transform: scale(1.1);
 
 }
 
