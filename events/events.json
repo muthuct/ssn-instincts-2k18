@@ -80,7 +80,7 @@
   "fineArts": {
     "name": "Fine Arts",
     "friendlyName": "Fine Arts",
-    "bgURL": "assets/events-bg/events-FineArts-Russia-01.svg",
+    "bgURL": "assets/events-bg/events-FineArts-Russia.png",
     "events": [
       "B/W SKETCHING",
       "ADULT COLORING CONTEST",
@@ -116,7 +116,7 @@
   "gaming": {
     "name": "Gaming",
     "friendlyName": "Gaming",
-    "bgURL": "assets/events-bg/events-Gaming-Spain-01.svg",
+    "bgURL": "assets/events-bg/events-gaming-spain.png",
     "events": [
       "Call of Duty",
       "FIFA",
