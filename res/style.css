@@ -137,3 +137,120 @@
     transform: translateX(-50%); }
   #contact p img {
     margin: 8px; }
+
+.airplane{
+    animation:airanim 2s ease;
+}
+
+.animcloud{
+    animation:cloudanim 2.7s ease-in-out alternate infinite;
+}
+
+
+.animcloud:nth-of-type(odd){
+    animation-direction: alternate-reverse;
+    animation-delay: 0.7s;
+    animation-timing-function: ease;
+}
+
+#layer-bg-3.animcloud{
+    animation-duration:1.9s;
+}
+
+
+.animboat1{
+    transform-origin: 24.74% 0 0;
+    animation: boatanim1 8s ease-in-out  infinite;
+}
+
+.animboat2{
+    /*transform-origin: 24.74% 0 0;*/
+    animation: boatanim2 2s ease-in-out alternate infinite;
+}
+.animboat3{
+    /*transform-origin: 24.74% 0 0;*/
+    animation: boatanim3 3.256s ease-in-out alternate infinite;
+}
+
+.animeagle{
+    animation: eagleanim 15s linear infinite;
+}
+
+
+@keyframes boatanim1{
+    0%{
+        transform: scaleX(1) translate3d(90%, 0, 0);
+    }
+
+    49.99% {
+        transform: scaleX(1) translate3d(0, 0, 0);
+    }
+
+    50% {
+        transform: scaleX(-1) translate3d(0, 0, 0);
+    }
+
+    99.99%{
+        transform: scaleX(-1) translate3d(-90%, 0, 0);
+    }
+
+    100% {
+        transform: scaleX(1) translate3d(90%, 0, 0);
+    }
+}
+
+@keyframes boatanim2{
+    0%{
+        left:15vh;
+    }
+    100%{
+        top:0vh;
+    }
+
+
+}
+
+@keyframes boatanim3{
+    0%{
+        left:-15vh;
+    }
+    100%{
+        left:0vh;
+    }
+
+
+}
+
+@keyframes airanim{
+    0%{
+        left:-100vh;
+        top:100vh;
+    }
+    100%{
+        top:0vh;
+    }
+
+
+}
+
+
+@keyframes cloudanim{
+    0%{
+        left:10vh;
+    }
+
+    100%{
+        left:0vh;
+    }
+}
+
+@keyframes eagleanim{
+    0%{
+        transform:rotateZ(0deg);
+    }
+
+    100%{
+        transform:rotateZ(359deg);
+    }
+}
+
