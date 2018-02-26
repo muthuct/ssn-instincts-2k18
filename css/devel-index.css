@@ -97,6 +97,14 @@ a:focus {
     min-height: 56.25vw;
 }
 
+.event-dates {
+    font-family: Loguetown, sans-serif;
+    text-align: center;
+    color: #2d5f73;
+    font-size: 2.5rem;
+    margin-top: -2rem;
+}
+
 #typography-container {
     max-width: 300px;
     margin: 5rem auto;
@@ -283,6 +291,30 @@ a:focus {
     color: white;
 }
 
+#reg-modal-content {
+    padding: 2rem;
+    text-align: center;
+    width: 100%;
+}
+
+#reg-modal-content .reg-register-btn:focus,
+#reg-modal-content .reg-register-btn {
+    cursor: pointer;
+    text-decoration: none;
+    color: #fefefe;
+    border: 1px solid #00897b;
+    border-radius: 100vh;
+    background-color: #00897b;
+    padding: 0.25rem 1.5rem;
+}
+
+#reg-modal-content .reg-register-btn:hover {
+    text-decoration: none;
+    background-color: #fefefe ;
+    color: #00897b;
+}
+
+
 #sponsors-container {
     position: relative;
     min-height: 56.25vw;
@@ -354,7 +386,7 @@ a:focus {
     text-align: center;
 }
 
-#contact-container .contact-content {
+.contact-content {
     display: inline-flex;
     flex-direction: column;
     margin: auto;
