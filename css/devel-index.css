@@ -296,7 +296,17 @@ a:focus {
     text-align: center;
     width: 100%;
 }
-
+#gen-reg #register-btn:focus,
+#gen-reg #register-btn {
+    cursor: pointer;
+    text-decoration: none;
+    color: #fefefe;
+    border: 1px solid #00897b;
+    border-radius: 100vh;
+    background-color: #00897b;
+    padding: 0.25rem 1.5rem;
+    margin:auto;
+}
 #reg-modal-content .reg-register-btn:focus,
 #reg-modal-content .reg-register-btn {
     cursor: pointer;
