@@ -3,8 +3,6 @@
 #### <!-- <i class="fas fa-edit"></i> --> Description:
   Use clues, be creative and pull out your hidden thoughts. Be spontaneous and let your sparkling ideas lead to victory. So, get on the floor to Mix and Match!
 
-#### <!-- <i class="fas fa-edit"></i> --> Description:
-  If you think you can market from a pin to anything weird out there then, you should bring yourself here. Think crazy, funny, go berserk but make sure to sell your product!
 
 #### <!-- <i class="fas fa-map-marker-alt"></i> --> Venue: CSE CLASSROOM & CSE SEMINAR HALL 
 
