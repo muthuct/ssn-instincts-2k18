@@ -19,7 +19,7 @@
   * No participant can be in more than one band.
 
 #### Registration:
-  Teams are requested to pre-register for the event by sending their profile along with a link (YouTube, Dropbox, Drive) to a performance by the band (Duration – 15 minutes) to the mail ID ssnmusiclub@ssn.edu.in . The deadline for the submission is 11:59 PM, March 3, 2018. The subject of the mail must be ‘Acoustics and A Capella’. The mail must contain the names of all band members, name of the college and contact details.
+  Teams are requested to pre-register for the event by sending their profile along with a link (YouTube, Dropbox, Drive) to a performance by the band (Duration – 15 minutes) to the mail ID ssnmusiclub@ssn.edu.in . The deadline for the submission is 11:59 PM, March 6, 2018. The subject of the mail must be ‘Acoustics and A Capella’. The mail must contain the names of all band members, name of the college and contact details.
 
 #### <!-- <i class="fas fa-phone"></i> --> Contact:
   * Divya - 9884813096

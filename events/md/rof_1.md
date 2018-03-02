@@ -14,7 +14,7 @@ Don't miss it!
 #### <!-- <i class="fas fa-bullhorn"></i> --> Rules:
   * Maximum duration of 15 minutes.
   * No obscenity.
-  * The movie has to be mailed to reelsoffire2018@gmail.com by March 1st, 2018 as a google drive link or YouTube link.
+  * The movie has to be mailed to reelsoffire2018@gmail.com by March 4th, 2018 as a google drive link or YouTube link.
   * Decision made by the jury will be final.
   * Top 10 best short films will be screened.
 

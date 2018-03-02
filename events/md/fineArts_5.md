@@ -9,7 +9,6 @@
 
 #### <!-- <i class="fas fa-bullhorn"></i> --> Rules:
   * Team members are restricted to a maximum of 2 per team.
-  * The art should be completed within 45 MINUTES.
   * Sheets, pencils and sketchpens will be provided.
 
 #### <!-- <i class="fas fa-phone"></i> --> Contact:

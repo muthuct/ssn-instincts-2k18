@@ -9,7 +9,6 @@
 
 #### <!-- <i class="fas fa-bullhorn"></i> --> Rules:
   * Teams should have 2-4 members only.
-  * The art is to be completed within 90 MINUTES.
   * One A0 sheet per team will be provided.
   * Basic Poster paints and brushes will be provided. The participants may bring their own supplies.
 

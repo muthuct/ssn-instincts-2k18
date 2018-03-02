@@ -18,7 +18,7 @@
   * No participant can be a part of more than one band.
 
 #### Registration:
-  Bands are requested to pre-register for the event by sending their profile along with a link (YouTube, Dropbox, Drive) to a performance by the band (Duration – 10 minutes) to the mail ID ssnmusiclub@ssn.edu.in . The deadline for the submission is 11:59 PM, March 3, 2018. The subject of the mail must be ‘Dhwani’. The mail must contain the names of all band members, name of the college and contact details.
+  Bands are requested to pre-register for the event by sending their profile along with a link (YouTube, Dropbox, Drive) to a performance by the band (Duration – 10 minutes) to the mail ID ssnmusiclub@ssn.edu.in . The deadline for the submission is 11:59 PM, March 6, 2018. The subject of the mail must be ‘Dhwani’. The mail must contain the names of all band members, name of the college and contact details.
 
 #### <!-- <i class="fas fa-phone"></i> --> Contact:
   * Suuraj - 9003215395

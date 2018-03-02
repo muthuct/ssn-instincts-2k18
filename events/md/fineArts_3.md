@@ -10,7 +10,6 @@
 #### <!-- <i class="fas fa-bullhorn"></i> --> Rules:
   * 2 per team - the artist and the hand model.
   * The design should be restricted only to the arm - from hands to shoulder
-  * The team has 45 minutes to complete their designs.
   * Mehendi cones will be provided. Other body paints or markers should be brought by the participants.
 
 #### <!-- <i class="fas fa-phone"></i> --> Contact:

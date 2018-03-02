@@ -9,7 +9,6 @@
 
 #### <!-- <i class="fas fa-bullhorn"></i> --> Rules:
   * Individual participation.
-  * The art is to be completed within 45 MINUTES.
   * Basic pencils (HB,2B) and pens will be provided. The participant may bring their own supplies. The provided drawing sheet must be used.
 
 #### <!-- <i class="fas fa-phone"></i> --> Contact:

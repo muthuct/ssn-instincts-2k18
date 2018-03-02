@@ -1,11 +1,11 @@
 ### Potpourri
 
 #### <!-- <i class="fas fa-edit"></i> --> Description:
-  Welcome to the most insanely fun competition of them all.This is a crazy mix of improving events you do not want to miss.
+  Welcome to the most insanely fun competition of them all.This is a crazy mix of improv events you do not want to miss.
 
 #### <!-- <i class="fas fa-bullhorn"></i> --> Rules:
   * Three rounds
-  * Individual participation
+  * Three per team
   * Be there
   * Be funny
   * Have fun

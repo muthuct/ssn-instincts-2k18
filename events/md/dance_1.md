@@ -9,7 +9,7 @@
 
 #### Rules: 
   * This is a two round event (The preliminary round being an online video submission and the final round.)
-  * Teams are requested to send a link of the video for the preliminary round to chorenite2k18@gmail.com by march 3rd. The mail must contain the college name , Team name and contact details. 
+  * Teams are requested to send a link of the video for the preliminary round to choreonite2k18@gmail.com by march 3rd. The mail must contain the college name , Team name and contact details. 
   * Each team will be allotted a time of 10 minutes to perform in the final round. 
   * All the team members are requested to bring their college id cards without fail. 
   * All the tracks must be provided to the coordinator at the time of registration in a pendrive
