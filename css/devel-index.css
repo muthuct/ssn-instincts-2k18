@@ -333,46 +333,55 @@ a:focus {
     /* margin: 0 15vw; */
 }
 
-#sponsors-content {
+.sponsors-content {
     display: flex;
     flex-wrap: wrap;
 }
 
-#sponsors-content div {
+.sponsors-content .sponsor-item {
     /* max-height: 6rem; */
     width: 33%;
     padding: 3rem 6rem;
     margin: 0 auto;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
+.sponsors-content .img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex: 1 1 auto;
+}
+
 @media only screen and (max-width: 1000px) {
-    #sponsors-content div {
+    .sponsors-content .sponsor-item {
         width: 50%;
     }
 }
 
 @media only screen and (max-width: 600px) {
-    #sponsors-content div {
+    .sponsors-content .sponsor-item {
         width: 70%;
     }
 }
 
 @media only screen and (max-width: 500px) {
-    #sponsors-content div {
+    .sponsors-content .sponsor-item {
         width: 80%;
     }
 }
 
 @media only screen and (max-width: 400px) {
-    #sponsors-content div {
+    .sponsors-content .sponsor-item {
         width: 90%;
     }
 }
 
-#sponsors-content div img {
+.sponsors-content .sponsor-item img {
     max-width: 100%;
     max-height: 100%;
 }
