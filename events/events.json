@@ -122,5 +122,13 @@
       "FIFA",
       "NFS"
     ]
+  },
+  "informals": {
+    "name": "Informals",
+    "friendlyName": "Informals",
+    "bgURL": "assets/events-bg/events-Informals-Andhra.jpg",
+    "events": [
+      "About"
+    ]
   }
 }

@@ -386,6 +386,18 @@ a:focus {
     max-height: 100%;
 }
 
+.sponsors-content .sponsor-item img#lic {
+    max-width:22%;
+}
+
+.sponsors-content .sponsor-item img#metro {
+    max-width:25%;
+}
+
+.sponsors-content .sponsor-item img#lalithaa {
+    max-width: 150%; max-height: 150%;
+}
+
 .section-title {
     padding: 2rem 0;
     font-size: 7rem;
@@ -451,6 +463,15 @@ a:focus {
         max-width: 50px;
         margin: 3rem auto;
     }
+    .sponsors-content .sponsor-item img#lic {
+        max-width:55%;
+    }
+    .sponsors-content .sponsor-item img#metro {
+        max-width:60%;
+    }
+    .sponsors-content .sponsor-item img#lalithaa {
+        max-width: 130%;
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -463,10 +484,26 @@ a:focus {
     html {
         font-size: 0.7em;
     }
+    .sponsors-content .sponsor-item img#lic {
+        max-width:65%;
+    }
+    .sponsors-content .sponsor-item img#metro {
+        max-width:70%;
+    }
+    
+    .sponsors-content .sponsor-item img#lalithaa {
+        max-width: 120%;
+    }
 }
 
 @media only screen and (max-width: 400px) {
     html {
         font-size: 0.6em;
+    }
+    .sponsors-content .sponsor-item img#lic {
+        max-width:77%;
+    }
+    .sponsors-content .sponsor-item img#metro {
+        max-width:80%;
     }
 }

@@ -8,5 +8,9 @@ Cross college teams are allowed.
   Debate will require teams of 2 and will have prelims.Information of the detailed format will be up
 soon.
 
+For further updates on detailed rules, format, etc., do like and follow The SSN Debates' Facebook Page:
+
+[https://www.facebook.com/The-SSN-Debates-1448310595401671/](https://www.facebook.com/The-SSN-Debates-1448310595401671/)
+
 #### <!-- <i class="fas fa-phone"></i> --> Contact:
   * Avinash Bharat - 9042813753
